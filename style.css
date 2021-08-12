@@ -1,0 +1,112 @@
+
+  h1{
+            color : green 
+  }
+
+  .header{
+    display: flex;
+    background-color: pink;
+    /*border : 3px blue solid;*/
+    justify-content: space-around;
+  }
+  .header *{
+    margin-left: 20px;
+    /*padding : 20px*/
+  }
+  .menu{
+    font-size: 20px;
+  }
+  .menu a:link{
+    background-color:pink;
+    text-decoration: none;
+  }
+  .menu a:visited{
+    background-color:pink;
+    text-decoration: none;
+  }.menu a:hover{
+    background-color: tomato;
+    text-decoration: underline;
+  }
+  .menu a:active{
+    background-color:tomato;
+  }
+  .links{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+  .youtube{
+      display: flex;
+      justify-content: flex-end
+  }
+  .gamers{
+      display: flex;
+      justify-content: center
+
+  }
+  .paragraph1{
+      text-align: center 
+  }
+  
+  .item {
+    position : relative;
+    
+  }
+  .item p{
+    color : orangered;
+   position : absolute;
+   top : 50%;
+   left : 50%;
+   transform : translate(-50%, -50%);
+   opacity : 0;
+  }
+  .item:hover p{
+   opacity : 1;
+  }
+  .item:hover img{
+    opacity : 0.3456789;
+  }
+  .paragraph2{
+    text-align: center;
+    
+    
+  }
+  .Johnny{
+    text-align: center;
+  }
+  .johnparagraph{
+    text-align: center;
+  }
+  .paragraph3{
+    text-align: center;
+    
+    
+  }
+  .paragraph4{
+    text-align: center;
+    
+    
+  }
+  .paragraph5{
+    text-align: center;
+    
+    
+  }
+  .paragraph6{
+    text-align: center;
+    
+    
+  }
+  .paragraph7{
+    text-align: center;
+    
+    
+  }
+  .paragraph8{
+    text-align: center;
+    
+    
+  }
+  .Kevin{
+    text-align: center;
+  }
